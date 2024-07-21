@@ -1,6 +1,6 @@
 # grade_manager.py
 import json
-from .student import Student
+from student import Student  # Change to absolute import
 
 class GradeManager:
     def __init__(self):
